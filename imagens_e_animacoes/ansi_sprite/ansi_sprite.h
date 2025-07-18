@@ -13,6 +13,7 @@
  *
  * SPDX‑License‑Identifier: MIT‑0 (public domain dedication)
  */
+#define ANSI_SPRITE_IMPLEMENTATION
 #ifndef ANSI_SPRITE_H
 #define ANSI_SPRITE_H
 
