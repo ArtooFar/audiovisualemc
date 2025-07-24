@@ -13,6 +13,12 @@ Pixel‑Artoo printf() é uma ferramenta web que converte imagens PNG (com trans
 A página está disponível em: [https://artoofar.github.io/pixel2printf/](https://artoofar.github.io/pixel2printf/)
 
 
+## IMPORTANTE
+### Para entender melhor como o código funciona e como manipular os caracteres e o cursor do terminal para melhor suprir as necessidades do seu projeto, leia essa documentação:
+### [ANSI ESCAPE CODES](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797)
+
+#### Extra: 
+[Conversor HEX -> ANSI](https://github.com/v-amorim/hex_to_ansi)
 
 ## Funcionalidades Principais
 

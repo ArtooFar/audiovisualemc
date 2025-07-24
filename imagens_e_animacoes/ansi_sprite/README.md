@@ -18,6 +18,13 @@ O diretório contém:
   * `gatojoinha.png`: sprite estático (32×32).
 * `demo_ansi_sprite.c`: exemplo de uso.
 
+## IMPORTANTE
+### Para entender melhor como o código funciona e como manipular os caracteres e o cursor do terminal para melhor suprir as necessidades do seu projeto, leia essa documentação:
+### [ANSI ESCAPE CODES](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797)
+
+#### Extra: 
+[Conversor HEX -> ANSI](https://github.com/v-amorim/hex_to_ansi)
+
 ## Estrutura de pastas
 
 ```text
