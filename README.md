@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-`audiovisualemc` é um conjunto de ferramentas e demos em C/C++ que permite a reprodução simultânea de áudio e a exibição de conteúdo visual (sprites e animações) diretamente no terminal. Através de rendering ANSI para o visual e bibliotecas de áudio para som, você consegue criar demos interativas com som e imagem em um mesmo programa.
+`audiovisualemc` é um conjunto de ferramentas e demos em C/C++ que permite a reprodução simultânea de áudio e a exibição de conteúdo visual (sprites e animações) diretamente no terminal. Através de [ANSI Escape Sequences](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797) para o visual e bibliotecas de áudio para som, você consegue criar demos interativas com som e imagem em um mesmo programa.
 
 ## Estrutura do Projeto
 
