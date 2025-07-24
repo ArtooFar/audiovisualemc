@@ -21,9 +21,9 @@
 
 Cada módulo do `audiovisualemc` tem responsabilidade específica:
 
-* **async**: inicializa e coordena execução paralela de funções, garantindo sincronização entre áudio e visual sem bloqueios. Também pode ser usado de outras formas.
-* **audio**: funções para carregar (WAV/MP3), reproduzir em segundo plano e liberar recursos de áudio.
-* **imagens\_e\_animacoes/ansi\_sprite**: carrega sprite-sheets e gera animações frame a frame no terminal usando sequências ANSI de cores.
-* **imagens\_e\_animacoes/artooprintf**: converte qualquer imagem PNG em código C com chamadas `printf()` usando cores ANSI 24-bit para exibição.
+* **[async](https://github.com/ArtooFar/audiovisualemc/tree/main/async)**: inicializa e coordena execução paralela de funções, garantindo sincronização entre áudio e visual sem bloqueios. Também pode ser usado de outras formas.
+* **[audio](https://github.com/ArtooFar/audiovisualemc/tree/main/audio)**: funções para carregar (WAV/MP3), reproduzir em segundo plano e liberar recursos de áudio.
+* **[imagens\_e\_animacoes/ansi\_sprite](https://github.com/ArtooFar/audiovisualemc/tree/main/imagens_e_animacoes/ansi_sprite)**: carrega sprite-sheets e gera animações frame a frame no terminal usando sequências ANSI de cores.
+* **[imagens\_e\_animacoes/artooprintf](https://github.com/ArtooFar/audiovisualemc/tree/main/imagens_e_animacoes/artooprintf)**: converte qualquer imagem PNG em código C com chamadas `printf()` usando cores ANSI 24-bit para exibição.
 
 Para usar, basta incluir os headers de cada módulo, inicializar o terminal (se necessário) e chamar as funções de setup e execução de cada parte no fluxo do seu `main`.

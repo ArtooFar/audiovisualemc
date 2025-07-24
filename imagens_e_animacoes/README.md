@@ -2,9 +2,9 @@
 
 Este diretório reúne os recursos visuais do projeto, organizados em dois submódulos:
 
-* **ansi\_sprite/**: implementa um renderizador de sprite-sheets no terminal utilizando ANSI Escape Codes e cores 24‑bit. Inclui funções para carregar imagens (via stb\_image), desenhar frames isolados e animar sequências.
+* **[ansi\_sprite/](https://github.com/ArtooFar/audiovisualemc/tree/main/imagens_e_animacoes/ansi_sprite)**: implementa um renderizador de sprite-sheets no terminal utilizando ANSI Escape Codes e cores 24‑bit. Inclui funções para carregar imagens (via stb\_image), desenhar frames isolados e animar sequências.
 
-* **artooprintf/**: integra a ferramenta Pixel‑Artoo printf(), que converte qualquer imagem PNG (com canal alfa) em chamadas C de `printf()` com códigos ANSI de cor para reproduzir a arte pixelada diretamente no terminal.
+* **[artooprintf/](https://github.com/ArtooFar/audiovisualemc/tree/main/imagens_e_animacoes/artooprintf)**: integra a ferramenta Pixel‑Artoo printf(), que converte qualquer imagem PNG (com canal alfa) em chamadas C de `printf()` com códigos ANSI de cor para reproduzir a arte pixelada diretamente no terminal.
 
 ## Como usar
 
