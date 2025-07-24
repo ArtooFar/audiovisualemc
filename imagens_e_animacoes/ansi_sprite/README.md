@@ -2,7 +2,7 @@
 
 ## Visão geral
 
-`ansi_sprite.h` fornece um renderizador minimalista de sprite-sheets no terminal usando sequências ANSI e cores 24-bit. Inclui suporte a carregamento de imagens via `stb_image.h` e autoconfiguração de terminal em Windows e POSIX.
+`ansi_sprite.h` fornece um renderizador de sprite-sheets no terminal usando sequências ANSI e cores 24-bit. Inclui suporte a carregamento de imagens via `stb_image.h` e autoconfiguração de terminal em Windows e POSIX.
 
 O diretório contém:
 
