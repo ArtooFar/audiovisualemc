@@ -13,7 +13,6 @@
 ├── imagens_e_animacoes/     # Recursos visuais
 │   ├── ansi_sprite/         # Renderizador de sprite-sheets via ANSI Escape Codes
 │   └── artooprintf/         # Conversor de imagens PNG em chamadas printf ANSI (Pixel-Artoo)
-├── .gitignore               # Define arquivos e diretórios ignorados pelo Git
 └── README.md                # Este documento de visão geral
 ```
 
