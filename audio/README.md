@@ -27,7 +27,7 @@ Basta manter ambos na pasta `dependencias/` (ou ajustar `#include`).
 | `audio_play(alias, loop)`   | Toca faixa; `loop=true` => reproduz para sempre.       |
 | `audio_stop(alias)`         | Para imediatamente.                                    |
 | `audio_set_volume(alias,v)` | Ajusta volume (0–100%).                                |
-| `audio_fade_in(...)`        | Fade assíncrono de volume usando thread assíncrona |
+| `audio_fade_in(alias,duração(ms), vi,vf)`        | Fade assíncrono de volume usando thread assíncrona (vi = volume Inicial) (vf = volume final)|
 | `audio_fade_out(...)`       | Idem, mas para saída.                                  |
 | `audio_is_playing(alias)`   | Retorna `1` se estiver tocando.                        |
 | `audio_shutdown()`          | Libera todos os recursos.                              |
